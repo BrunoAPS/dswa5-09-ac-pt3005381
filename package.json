@@ -1,0 +1,34 @@
+{
+  "name": "dswa5-09-ac-pt3005381",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "start": "node server.js"
+  },
+  "author": "Bruno Paulino",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^0.8.8",
+    "express": "^4.17.1",
+    "express-load": "^1.1.16",
+    "method-override": "^2.3.10",
+    "mongodb": "^3.6.8",
+    "mongoose": "^5.12.14",
+    "uglify-js": "^3.8.0"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoAPS/dswa5-09-ac-pt3005381.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BrunoAPS/dswa5-09-ac-pt3005381/issues"
+  },
+  "homepage": "https://github.com/BrunoAPS/dswa5-09-ac-pt3005381#readme",
+  "description": ""
+}
