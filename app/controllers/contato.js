@@ -28,7 +28,7 @@ module.exports = function(app) {
     };
     controller.removeContato = function(req, res) {
         var _id = req.params.id;
-        Contato.deleteOnde({ " _id": _id }).exec().then(
+        Contato.deleteOne({ " _id": _id }).exec().then(
             function() {
                 res.end();
             },

@@ -28,7 +28,7 @@ module.exports = function(app) {
     };
     controller.removeCurso = function(req, res) {
         var _id = req.params.id;
-        Curso.deleteOnde({ " _id": _id }).exec().then(
+        Curso.deleteOne({ " _id": _id }).exec().then(
             function() {
                 res.end();
             },
